@@ -1,0 +1,107 @@
+/* AboutPage.css */
+.title_Events_Update{
+  text-align: center;
+  color: aliceblue;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.about-us {
+  margin-top: 50px;
+}
+
+.story {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.story h2 {
+  margin-bottom: 10px;
+}
+
+.story p {
+  color: #666;
+}
+
+.story img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.team {
+  text-align: center;
+  padding: 20px;
+}
+
+.team h2 {
+  margin-bottom: 10px;
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  margin: 20px;
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.team-member h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.team-member p {
+  color: #666;
+}
+
+
+
+.footer_About_page {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid white;
+  margin-bottom: 0;
+  /* position: fixed; */
+  width: 100%;
+  border-radius: 10px;
+}
+
+.container_About_page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+
+}
+
+.copyright_About_page {
+  font-size: 0.8rem;
+  color: white;
+  margin-right: 10px;
+}
+
+.footer_About_page nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.footer_About_page nav a:hover {
+  opacity: 0.8;
+}

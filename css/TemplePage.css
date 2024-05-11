@@ -1,0 +1,74 @@
+.footer_Temple_page {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid white;
+  margin-bottom: 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.container_Temple_page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.copyright_Temple_page {
+  font-size: 0.8rem;
+  color: white;
+  margin-right: 10px;
+}
+
+.footer_Temple_page nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.footer_Temple_page nav a:hover {
+  opacity: 0.8;
+}
+
+.Temple_page_main {
+  margin-left: 20px;
+}
+.TEMPLE_PAGE {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.TEMPLE_PAGE > div {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.TEMPLE_PAGE img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.Temple_Info {
+  margin-top: 20px;
+}
+
+.Temple_Info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.Temple_Info p {
+  font-size: 1rem;
+  color: #555;
+}

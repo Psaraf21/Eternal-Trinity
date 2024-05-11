@@ -1,0 +1,122 @@
+
+.Title_bar{
+    background-color: black;
+    max-width: 96%;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: azure;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+.container {
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.Bookin_Time{
+    border: 3px solid black;
+    border-radius: 5px;
+}
+.card_detail_page{
+    border: 3px solid black;
+    border-radius: 5px;
+}
+.hotel-info{
+    border: 3px solid black;
+    border-radius: 5px;
+}
+.booking_page_checkout_image{
+    border: 3px solid black;
+    border-radius: 5px;
+}
+.chcheck{
+    display: block;
+    margin: 2px;
+}
+/* HandleBookingPage.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    /* background-color: black; */
+}
+
+.hotel-info {
+    /* border: 1px solid #ccc; */
+    border: 3px solid black;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.hotel-info h2 {
+    margin-bottom: 10px;
+}
+
+.hotel-info img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.Bookin_Time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.Bookin_Time div {
+    margin-right: 10px;
+}
+
+.card_detail_page {
+
+    width: 100%;
+}
+
+.payment-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.payment-details input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.payment-details button {
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.payment-details button:hover {
+    background-color: black;
+}

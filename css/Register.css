@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+:root {
+  --main-color: #443;
+  --border-radius: 95% 4% 97% 5% / 4% 94% 3% 95%;
+  --border-radius-hover: 4% 95% 6% 95% / 95% 4% 92% 5%;
+  --border: .2rem solid var(--main-color);
+  --border-hover: .2rem dashed var(--main-color);
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all .2s linear;
+  
+  /* text-align: center; */
+}
+
+body, h2, label, form {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+h2 {
+  font-family: "Poppins";
+  margin-bottom: 15px; /* Reduced margin */
+  color: #443;
+  font-size: 30px; /* Reduced font size */
+  text-align: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: url(../images/background/book-bg.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-weight: bold;
+}
+
+.register-container {
+  margin: 0 auto;
+  padding: 20px;
+  width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  border: var(--border);
+  border-radius: var(--border-radius);
+  backdrop-filter: blur(3px); 
+  background: url(../images/background/book-bg.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-weight: bold;
+}
+  
+input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 8px;
+  width: calc(100% - 16px);
+  padding: 8px; /* Reduced padding */
+  margin: 4px 0 15px; /* Reduced margin */
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  border: var(--border);
+  border-radius: var(--border-radius);
+  background: url(../images/background/book-bg.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-weight: bold;
+}
+input::first-letter{
+  border-radius: var(--border-radius-hover);
+  border: var(--border-hover);
+}
+
+button {
+  display: block;
+  margin-top: 10px;
+  padding: 8px;
+  width: calc(100% - 16px);
+  /* background-color: #007bff; */
+  background: url(../images/background/book-bg.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-weight: bold;
+  color: #443;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border: var(--border);
+  border-radius: var(--border-radius);
+}
+
+button:hover {
+  border-radius: var(--border-radius-hover);
+  border: var(--border-hover);
+}
+
+

@@ -1,0 +1,94 @@
+/* Booking.css */
+
+.hero {
+    padding: 20px;
+  }
+  .MAIN_LINE_TEXT_hotel{
+    background-color: black;
+    border-radius: 5px;
+    padding-top: 3px;
+    margin-bottom: 5px;
+  }
+  .search_input_classname {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  p{
+    font-size: 13px;
+  }
+  .MAIN_LINE_TEXT {
+    font-size: 33px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ccc;
+
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 820px;
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .container {
+    margin-top: 20px;
+  }
+  
+  .hotel-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .hotel-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .hotel-item h3 {
+    margin-top: 0;
+  }
+  
+  .hotel-item img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .hotel-item p {
+    margin: 5px 0;
+  }
+  
+  .hotel-item button {
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .hotel-item button:hover {
+    background-color: #fff;
+  }
+  

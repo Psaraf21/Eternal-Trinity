@@ -1,0 +1,57 @@
+.main_userdashboard{
+    border: 1px solid black;
+    border-radius: 8px;
+    text-align: center;
+    color: azure;
+    background-color: black;
+    font-size: 23px;
+    margin-bottom: 20px;
+    display: flex;
+    /* align-items: center; */
+}
+.parshad_box{
+ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.parshad_box img{
+    height: 160px;
+    width: 200px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+.parshad__box{
+    border: 1.5px solid black;
+    border-radius: 8px; 
+    margin: auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    align-items: center;
+    
+}
+.parshad_detail_box{
+    margin-right: 60px;
+}
+.search-button-2{
+    background-color: #fff;
+    color: black;
+    width: 80px;
+    height: 40px;
+    padding: auto;
+    padding-top: 4px;
+    padding-bottom: 2px;
+    margin-top: 4px;
+}
+.ParshadBooking{
+    margin-left: 520px;
+    margin-right: 270px;
+}

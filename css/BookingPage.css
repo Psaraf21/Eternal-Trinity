@@ -1,0 +1,178 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set background color and font */
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Header styles */
+.header {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Main content container */
+.container {
+  /* max-width: 1200px; */
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* Section title styles */
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+/* Card styles */
+.card1 {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px; 
+  /* width: 100px;  */
+  height: 360px;
+  border-radius: 10px 10px 10px 10px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.card1:last-child {
+  margin-right: 0;
+}
+
+/* Card title styles */
+.card1 h3 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 15px;
+  text-align: center;
+ 
+}
+
+/* Card description styles */
+.card1 p {
+  font-size: 14px;
+  /* color: #6c757d; */
+  margin-bottom: 0; 
+}
+
+/* Adjust image height */
+.card1 img {
+  width: 100%; 
+  height: 200px; /* Set desired height */
+  object-fit: cover; /* Maintain aspect ratio */
+}
+
+card1-info
+
+/* Button styles */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  
+}
+
+/* Button hover effect */
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Responsive layout */
+/* @media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+  
+  .card {
+    padding: 10px;
+  }
+  
+  .card h3 {
+    font-size: 18px;
+  }
+  
+  .card p {
+    font-size: 14px;
+  }
+} */
+
+.Hotel-PrasadBOOKING{
+  text-align: center;
+  font-size: large;
+}
+.Sectionns{
+  text-align: center;
+  border: white;
+  border-radius: 10px;
+  background-color: black;
+  color: #f8f9fa;
+  /* width: 40%; */
+}
+.Booking_Buttoon{
+  position: fixed;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: black;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer_Booking_page {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid white;
+}
+
+.container_Booking_page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+
+}
+
+.copyright_Booking_page {
+  font-size: 0.8rem;
+  color: white;
+  margin-right: 10px;
+}
+
+.footer_Booking_page nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.footer_Booking_page nav a:hover {
+  opacity: 0.8;
+}
